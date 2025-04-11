@@ -5,7 +5,7 @@ import java.io.File;
 public class main {
     public static void main(String[] args) {
         String keyword = "nelson";
-        File files = new File("C:\\Users\\alunos\\IdeaProjects\\Threads\\src\\arquivosNomes");
+        File files = new File("path");
         File[] arq = files.listFiles();
 
         assert arq != null;
